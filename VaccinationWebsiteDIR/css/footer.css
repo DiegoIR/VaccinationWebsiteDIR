@@ -1,0 +1,57 @@
+
+#globalfoot {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#globalfoot {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#contfoot {
+    align-self:stretch;
+    max-width:auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+footer h2 {
+    display: flex;
+    cursor: pointer;
+}
+
+#txt2 {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#txt2 div{
+    margin: 40px;
+}
+
+footer #txt {
+    display: flex;
+    float: right;
+    padding-right: 32px;
+}
+
+
+#abs3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#abs h2 {
+    padding-right: 60px;
+}
+
+#txt p {
+    margin-top: -20%;
+    padding-right:40px;
+}
+
+
+
+

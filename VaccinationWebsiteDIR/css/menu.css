@@ -1,0 +1,79 @@
+#menu-bar {
+    display: none;
+}
+header label {
+    float: right;
+    font-size: 24px;
+    margin: 5px 0;
+    /*para que aparezca el icono de mano al posicionar el puntero en el menu*/
+    cursor: pointer;
+
+}
+
+.menu {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(48,81,207,0.5);
+    /*para ver el desplamiento del menu y el tiempo que tardara*/
+    transition: all 0.5s;
+    /*sobre el eje X se desplaza un menos 100%*/
+    transform: translateX(-110%);
+}
+
+.menu a {
+    display: block;
+    color: #6d7b93;
+    height: 40px;
+    text-decoration: none;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.menu a:hover {
+    /*efecto al posicionar el puntero en alguna opcion del menu*/
+    background: rgba(255, 255, 255, 0.3);
+}
+
+
+.hoaxbtt {
+    width: 150px;
+    height: 38px;
+    font-size:20px;
+    color: #fff;
+    background-color: #2b4ac9;
+    text-decoration: none;
+    padding: 0px;
+    align-content: center;
+    border-radius: 4.5px;
+    box-shadow: 2.0px 2.0px 1px rgba(176,188,235,255);
+    cursor: pointer;
+}
+
+
+/*para darle funcionalidad cuando uno hace clic sobre el menu por lo que 
+cuando tenga la pseudo clase checked del input que se agrego, llamara al menu, 
+por medio del apostrofe alt+126, el translate en 0 lo muestra*/
+#menu-bar:checked ~ .menu {
+    transform: translateX(0%);
+}
+
+/*Para dejar fijo el menu en pantalla completa*/
+@media (min-width:768px) {
+    .menu{
+        position: static;
+        width: auto;
+        height: auto;
+        transform: translateX(0%);
+        float: right;
+        display: flex;
+        background: none;
+        padding-right: 0rem;
+    }
+    header label {
+        display: none;
+    }
+    
+}

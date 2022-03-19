@@ -1,0 +1,21 @@
+#brands {
+    margin-top: 0px;
+    align-content: center;
+}
+
+.imgbr {
+    display: flex;
+    align-items: center;
+}
+
+.imgbr img {
+    height: auto;
+    width: 70%;
+}
+  
+.imgbr li{
+    opacity: 0.3;
+    display: inline;
+    justify-content: center;
+    padding-right: 20px;
+}

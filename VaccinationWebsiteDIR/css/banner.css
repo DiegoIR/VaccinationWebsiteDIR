@@ -1,0 +1,143 @@
+#banner {
+    margin-top: 50px;
+}
+
+
+#globalbanner {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#bancont {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 40%;
+}
+
+
+#banner h2 {
+    font-size: 40px;
+    font-weight:900;
+    letter-spacing: -1pt;
+    line-height:1em;
+}
+
+.boxbanner {
+    width: 145%;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    display:flex;
+    justify-content: center left;
+    align-items: center;
+    align-content: center;
+    box-shadow: 2.0px 2.0px 1px rgba(255,255,255,255);
+}
+
+#elements li {
+    font-size: 13px;
+    font-weight: lighter;
+    display: inline;
+    padding-left: 0px;
+    padding-right: 14px;
+    letter-spacing: 0.5pt;
+}
+
+.shedule {
+    font-size: 12px;
+    font-weight: bolder;
+    letter-spacing: 1pt;
+    display:flex;
+    flex-direction:row;
+}
+
+#descrip {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#descrip li{
+    font-size: 12px;
+    font-weight: lighter;
+    padding-left: 0px;
+    padding-right: 80px;
+    list-style: none;
+}
+
+
+
+.options input{
+    width: 100px;
+    height: 26px;
+    font-size: 10px;
+    font-weight: lighter;
+    display: inline;
+    margin: 12px;
+    padding-right: 10px;
+    border-color: rgba(255,255,255,0.2);
+}
+
+#banner .input1 {
+    float: right;
+    margin: -20px;
+    display: block;
+    width: 100px;
+    height: 40px;
+    font-size:12px;
+    font-weight:600;
+    color: #fff;
+    background-color: #2b4ac9;
+    text-decoration: none;
+    padding: 4px;
+    align-content: center;
+    border: 3px solid #2b4ac9;
+    border-radius: 4.5px;
+    box-shadow: 2.0px 2.0px 1px rgba(176,188,235,255);
+}
+
+#send input:hover {
+    background: #fff;
+    color: #3657d5;
+}
+
+.imgbanner {
+    position: relative;
+    text-align: right;
+    height:720px;
+}
+img {
+ width: 70%; 
+ height: 80%;
+}
+
+#elements li {
+    color: #ffd113;
+}
+
+#elements span {
+    color: #284779;
+}
+
+.icon-clock {
+    color: #3454d2;
+}
+
+.icon-location {
+    color: #3454d2;
+}
+
+.icon-calendar-inv {
+    color: #3454d2;
+}
+
+.icon-pencil {
+    color: #3454d2;
+}
+
+
+
+
+
+
